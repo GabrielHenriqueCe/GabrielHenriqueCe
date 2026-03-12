@@ -31,4 +31,4 @@ Sistema de loja em console desenvolvido em 5 versões progressivas. Documenta a 
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Henriques_Cé-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gabrielhenriquece)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Henriques_Cé-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0)
