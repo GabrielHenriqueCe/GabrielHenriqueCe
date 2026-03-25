@@ -1,5 +1,4 @@
 # Olá, eu sou o Gabriel 👋
-
 Estudante de Engenharia de Software em busca da primeira vaga como desenvolvedor.
 Gosto de aprender construindo — cada projeto é uma versão melhor do anterior.
 
@@ -16,6 +15,9 @@ Gosto de aprender construindo — cada projeto é uma versão melhor do anterior
 
 ### 💣 [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado)
 Jogo de console em C# com 11 personagens, habilidades únicas, modo campanha com 210 fases e modo versus. Evoluiu por 4 versões — de código procedural até POO avançada com herança, polimorfismo e padrões de design.
+
+### ⚔️ [Apostle's War](https://github.com/GabrielHenriqueCe/Apostle-s-War)
+RPG por turnos em C# com 36 personagens distribuídos em 9 facções, sistema de itens com stats escalados por capítulo, progressão de campanha e save em arquivo.
 
 ### 🏪 [Loja C# — Estudos](https://github.com/GabrielHenriqueCe/Loja-CSharp-Estudos)
 Sistema de loja em console desenvolvido em 5 versões progressivas. Documenta a transição do paradigma procedural para POO, passando por validação de entrada, encapsulamento, carrinho de compras e histórico de vendas.
