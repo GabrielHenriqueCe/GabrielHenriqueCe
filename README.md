@@ -13,14 +13,20 @@ Gosto de aprender construindo — cada projeto é uma versão melhor do anterior
 
 ## 🚀 Projetos em Destaque
 
-### 💣 [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado)
-Jogo de console em C# com 11 personagens, habilidades únicas, modo campanha com 210 fases e modo versus. Evoluiu por 4 versões — de código procedural até POO avançada com herança, polimorfismo e padrões de design.
-
 ### ⚔️ [Apostle's War](https://github.com/GabrielHenriqueCe/Apostle-s-War)
-RPG por turnos em C# com 36 personagens distribuídos em 9 facções, sistema de itens com stats escalados por capítulo, progressão de campanha e save em arquivo.
+RPG por turnos em C# com 36 personagens distribuídos em 9 facções, sistema de itens com stats escalados por capítulo, progressão de campanha e save em arquivo. Arquitetura orientada a habilidades extensíveis e status effects com responsabilidade própria.
 
-### 🏪 [Loja C# — Estudos](https://github.com/GabrielHenriqueCe/Loja-CSharp-Estudos)
-Sistema de loja em console desenvolvido em 5 versões progressivas. Documenta a transição do paradigma procedural para POO, passando por validação de entrada, encapsulamento, carrinho de compras e histórico de vendas.
+### 📚 [Atividades Entra21](https://github.com/GabrielHenriqueCe/Atividades_Entra21)
+Repositório com exercícios e projetos do programa Entra21 (Blumenau). Cobre fundamentos e intermediário de C#: POO completa, generics, collections, structs, enums, exceções, manipulação de arquivos e namespaces.
+
+---
+
+## 📂 Outros Projetos
+
+| Projeto | Tecnologias | Foco |
+|---|---|---|
+| [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado) | C# | Jogo de console com 11 personagens, 210 fases e modo versus. Evoluiu por 4 versões mostrando a transição de código procedural para POO avançada com padrões de design. |
+| [Loja C# — Estudos](https://github.com/GabrielHenriqueCe/Loja-CSharp-Estudos) | C# | Sistema de loja em 5 versões progressivas. Documenta a transição do paradigma procedural para POO: validação de entrada, encapsulamento, carrinho de compras e histórico de vendas. |
 
 ---
 
