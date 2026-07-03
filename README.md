@@ -2,7 +2,7 @@
 
 Técnico de campo em telecom (Claro) virando desenvolvedor **C# / .NET** — cursando Engenharia de Software (Uniasselvi, 3º semestre) e o programa **Entra21** em Blumenau/SC. Gosto de aprender refatorando: cada projeto que sobe no GitHub é uma versão melhor do anterior.
 
-📍 Blumenau, SC · 🟢 Aberto a vagas júnior CLT (local/híbrido)
+📍 Blumenau, SC · 🟢 Aberto a vagas júnior CLT (local/híbrido) · 🌐 [gabrielhenriquece.github.io](https://gabrielhenriquece.github.io/)
 
 ---
 
@@ -61,5 +61,6 @@ Técnico AT Empresarial III na **Claro** — diagnóstico de tráfego, perda de 
 
 ## 📬 Contato
 
+🌐 [Portfólio](https://gabrielhenriquece.github.io/) · 💼 [LinkedIn](https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0) · ✉️ [ga.biel.hce@gmail.com](mailto:ga.biel.hce@gmail.com)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Henrique_Cé-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0)
-[![Gmail](https://img.shields.io/badge/Email-ga.biel.hce%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ga.biel.hce@gmail.com)
