@@ -1,66 +1,68 @@
 # Olá, eu sou o Gabriel 👋
 
-Técnico de campo em telecom (Claro) virando desenvolvedor **C# / .NET** — cursando Engenharia de Software (Uniasselvi, 3º semestre) e o programa **Entra21** em Blumenau/SC. Gosto de aprender refatorando: cada projeto que sobe no GitHub é uma versão melhor do anterior.
+Técnico de campo em telecom (Claro) virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e o programa **Entra21** em Blumenau/SC.
+
+Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é fechar a feature — é entender por que a solução anterior não servia.
 
 📍 Blumenau, SC · 🟢 Aberto a vagas júnior CLT (local/híbrido) · 🌐 [gabrielhenriquece.github.io](https://gabrielhenriquece.github.io/)
 
 ---
 
-## 🛠️ Stack
+## ⚔️ Projeto principal — [Apostle's War](https://github.com/GabrielHenriqueCe/Apostle-s-War)
 
-**Linguagens**
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+RPG por turnos em **C# / .NET 10**, jogável de ponta a ponta numa janela desktop (WebView2). É onde eu estudo design de software com um problema grande o bastante para que decisão ruim doa: mais de **200 pull requests**, um por tema, cada um revisado antes do merge.
 
-**Frameworks & ferramentas**
-![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+**Decisões de arquitetura:**
 
-**Conceitos que já domino**
-- POO completa (encapsulamento, herança, polimorfismo, classes abstratas, interfaces)
-- Generics & Collections (List, Stack, Queue, Dictionary, BitArray)
-- Exceções, manipulação de arquivos, namespaces, structs, enums
-- Padrões de design aplicados em projetos reais (State Pattern, etc.)
+- **Clean Architecture com um projeto por camada** — a dependência aponta sempre pra dentro, e quebra de camada **nem compila**. A fronteira não é convenção de pasta: é verificada pelo compilador (sem `InternalsVisibleTo`)
+- **Portas** (`IApresentacao`, `ITelaDeCombate`, `IRepositorioDeSave`) isolam o motor da interface e da persistência — o domínio não sabe desenhar nem salvar nada
+- **Bancada de dano**: a suíte de testes roda o motor de verdade, mede as 36 fichas e reescreve um relatório versionado a cada `dotnet test`, para que ajuste de balanceamento vire `git diff` legível
+- **ADRs** registrando cada decisão estrutural — inclusive as descartadas, como o modelo gacha/live-service que abandonei
 
-**Estudando agora**
-- ASP.NET Core MVC (controllers, actions, routing, model binding)
-- Entity Framework
-- React (2026/27)
+`C# · .NET 10 · Clean Architecture · Portas e adaptadores · State · Repository · WebView2 · ADRs`
 
 ---
 
-## 🚀 Projetos em destaque
+## 🤖 Como eu trabalho com IA
 
-### ⚔️ [Apostle's War](https://github.com/GabrielHenriqueCe/Apostle-s-War)
-RPG por turnos em C# com **36 personagens** distribuídos em **9 facções**, sistema de itens com stats escalados por capítulo, progressão de campanha e save em arquivo. Arquitetura orientada a habilidades extensíveis e status effects com responsabilidade própria — atualmente migrando o estado de vida (Vivo/Morto) para State Pattern.
-`C# · .NET 8 · POO · Arquitetura · Padrões de design`
+Desenvolvo em colaboração com IA e sou explícito sobre isso — parte dos commits do Apostle's War é co-autorada e está no histórico.
 
-### 💣 [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado)
-Jogo de console com **11 personagens jogáveis**, **210 fases** e modo versus. Evoluiu por 4 versões, documentando a transição de código procedural para POO avançada com padrões de design — a história do meu aprendizado em commits.
-`C# · POO avançada · Refatoração`
+**Meu:** arquitetura, desenho de camadas, especificação de comportamento escrita como sequência causal, revisão crítica de cada iteração, ajuste do código entregue, e a decisão de descartar o que não funcionou — inclusive coisas que eu mesmo já tinha aprovado.
 
-### 🛒 [Loja C# — Estudos](https://github.com/GabrielHenriqueCe/Loja-CSharp-Estudos)
-Sistema de loja em console com **5 versões progressivas**, documentando a evolução do paradigma procedural para POO: validação de entrada, encapsulamento, carrinho de compras e histórico de vendas.
-`C# · Encapsulamento · Validação · CRUD`
+**Assistido por IA:** a maior parte da implementação, a partir dessas especificações.
 
-### 📚 [Atividades Entra21](https://github.com/GabrielHenriqueCe/Atividades_Entra21)
-Repositório com exercícios e projetos do programa Entra21 (Blumenau). Cobre fundamentos e intermediário de C#: POO completa, generics, collections, structs, enums, exceções, manipulação de arquivos e namespaces.
-`C# · Generics · Collections · Structs/Enums · Exceptions`
+Não delego duas coisas: definição do problema e decisão de arquitetura. É o que mantém o projeto coerente depois de 200 PRs.
+
+---
+
+## 🛠️ Stack
+
+**Sólido** — C# · POO (encapsulamento, herança, polimorfismo, classes abstratas, interfaces, generics, collections) · exceções e I/O · Git/GitHub
+
+**Em uso** — .NET 8 e .NET 10 · ASP.NET Core MVC · Entity Framework Core (Code First) · SQL / MySQL · LINQ · async/await · injeção de dependência · SOLID · padrões (State, Repository)
+
+**Estudando agora** — REST APIs com ASP.NET Core (JWT, Swagger) · testes unitários · deploy
+
+**Base** — HTML · CSS · JavaScript · Tailwind
+
+---
+
+## 💣 [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado) — o registro do aprendizado
+
+Jogo de console que evoluiu por 4 versões, do código procedural à POO com padrões de design. Não está no meu nível atual, e é justamente por isso que continua público: dá para ler a diferença nos commits.
+
+`C# · POO · Refatoração`
 
 ---
 
 ## 📈 Trajetória
 
-Técnico AT Empresarial III na **Claro** — diagnóstico de tráfego, perda de pacote e qualidade de serviço em redes HFC e fibra óptica, atendendo clientes de grande porte. Essa base técnica trouxe algo difícil de ensinar em curso: visão sistêmica e troubleshooting sob pressão — o mesmo raciocínio usado para depurar bugs em produção.
+Técnico AT Empresarial III na **Claro** — diagnóstico de tráfego, perda de pacote e qualidade de serviço em redes HFC e fibra óptica para clientes empresariais de grande porte, sob SLA contratual de 4 horas. Essa base trouxe algo difícil de ensinar em curso: ler o sintoma, isolar a variável, validar a hipótese. É o mesmo loop de depurar um bug em produção.
 
 ---
 
 ## 📬 Contato
 
-🌐 [Portfólio](https://gabrielhenriquece.github.io/) · 💼 [LinkedIn](https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0) · ✉️ [ga.biel.hce@gmail.com](mailto:ga.biel.hce@gmail.com)
+🌐 [Portfólio](https://gabrielhenriquece.github.io/) · 💼 [LinkedIn](https://www.linkedin.com/in/gabriel-henrique-ce) · ✉️ ga.biel.hce@gmail.com
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Henrique_Cé-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0)
+<sub>© 2026 Gabriel Henrique Cé. Todos os direitos reservados.</sub>
