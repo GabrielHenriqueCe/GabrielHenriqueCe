@@ -8,21 +8,6 @@ Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é
 
 ---
 
-## ⚔️ Projeto principal — [Apostle's War](https://github.com/GabrielHenriqueCe/Apostle-s-War)
-
-RPG por turnos em **C# / .NET 10**, jogável de ponta a ponta numa janela desktop (WebView2). É onde eu estudo design de software com um problema grande o bastante para que decisão ruim doa: mais de **200 pull requests**, um por tema, cada um revisado antes do merge.
-
-**Decisões de arquitetura:**
-
-- **Clean Architecture com um projeto por camada** — a dependência aponta sempre pra dentro, e quebra de camada **nem compila**. A fronteira não é convenção de pasta: é verificada pelo compilador (sem `InternalsVisibleTo`)
-- **Portas** (`IApresentacao`, `ITelaDeCombate`, `IRepositorioDeSave`) isolam o motor da interface e da persistência — o domínio não sabe desenhar nem salvar nada
-- **Bancada de dano**: a suíte de testes roda o motor de verdade, mede as 36 fichas e reescreve um relatório versionado a cada `dotnet test`, para que ajuste de balanceamento vire `git diff` legível
-- **ADRs** registrando cada decisão estrutural — inclusive as descartadas, como o modelo gacha/live-service que abandonei
-
-`C# · .NET 10 · Clean Architecture · Portas e adaptadores · State · Repository · WebView2 · ADRs`
-
----
-
 ## 🤖 Como eu trabalho com IA
 
 Desenvolvo em colaboração com IA e sou explícito sobre isso — parte dos commits do Apostle's War é co-autorada e está no histórico.
