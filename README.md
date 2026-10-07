@@ -1,6 +1,6 @@
 # Olá, eu sou o Gabriel 👋
 
-Técnico de campo em telecom (Claro) virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e o programa **Entra21** em Blumenau/SC.
+Vim do telecom e estou virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e o programa **Entra21** em Blumenau/SC.
 
 Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é fechar a feature — é entender por que a solução anterior não servia.
 
@@ -8,15 +8,36 @@ Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é
 
 ---
 
+## 🏗️ [NoPrumo](https://github.com/GabrielHenriqueCe/NoPrumo) — gestão de obras
+
+Projeto Integrador do Entra21, em equipe de cinco: sistema de gestão de obras para construtoras, com cadastros, equipes, estoque por obra e treinamentos de segurança.
+
+- **Clean Architecture** em quatro camadas (Presentation, Application, Infrastructure, Domain), com regra de negócio na entidade, não no controller.
+- **Autorização por permissão, não por nome de papel**, e **DTO separado por perfil**: o mestre de obras nunca recebe valor de contrato ou salário no JSON — esconder na tela não basta.
+- **CPF e CNPJ cifrados** (AES-256-GCM, com HMAC para busca).
+- Coordeno a divisão do trabalho em fatias, uma branch e um PR por pessoa, e reviso o código da equipe com documentos de correção que cada um aplica no próprio código.
+
+`.NET 8 · ASP.NET Core Web API · EF Core · MySQL · JWT · React`
+
+---
+
 ## 🤖 Como eu trabalho com IA
 
-Desenvolvo em colaboração com IA e sou explícito sobre isso — parte dos commits do Apostle's War é co-autorada e está no histórico.
+Desenvolvo em colaboração com IA (Claude Code) e sou explícito sobre isso — os commits co-autorados estão no histórico.
 
-**Meu:** arquitetura, desenho de camadas, especificação de comportamento escrita como sequência causal, revisão crítica de cada iteração, ajuste do código entregue, e a decisão de descartar o que não funcionou — inclusive coisas que eu mesmo já tinha aprovado.
+**[claude-padrao](https://github.com/GabrielHenriqueCe/claude-padrao)** é como eu trabalho com IA, escrito: as regras e o plugin que o Claude segue em todo projeto meu.
+
+- **Regras:** desenho antes de código, nada de commit sem o meu ok, nome que diz o que é, comentário só onde o código não fala sozinho.
+- **Skills:** um método de depuração (sintoma → hipótese → teste, sem chute), checklist de C# e Clean Architecture, revisão de interface (acessibilidade, foco, animação).
+- **Hook de contexto:** mede quanto da memória da sessão já foi usado e, antes de encher, faz o Claude fechar o trabalho e entregar o que foi feito e o que falta.
+
+As regras nascem nos projetos e sobem para lá — e são revisadas pelos próprios projetos antes de entrar. É público, para outras pessoas usarem.
+
+**Meu:** arquitetura, desenho de camadas, especificação de comportamento, revisão crítica de cada iteração e a decisão de descartar o que não funcionou — inclusive coisas que eu mesmo já tinha aprovado.
 
 **Assistido por IA:** a maior parte da implementação, a partir dessas especificações.
 
-Não delego duas coisas: definição do problema e decisão de arquitetura. É o que mantém o projeto coerente depois de 200 PRs.
+Não delego duas coisas: definição do problema e decisão de arquitetura.
 
 ---
 
@@ -32,17 +53,9 @@ Não delego duas coisas: definição do problema e decisão de arquitetura. É o
 
 ---
 
-## 💣 [Campo Minado](https://github.com/GabrielHenriqueCe/Campo-Minado) — o registro do aprendizado
-
-Jogo de console que evoluiu por 4 versões, do código procedural à POO com padrões de design. Não está no meu nível atual, e é justamente por isso que continua público: dá para ler a diferença nos commits.
-
-`C# · POO · Refatoração`
-
----
-
 ## 📈 Trajetória
 
-Técnico AT Empresarial III na **Claro** — diagnóstico de tráfego, perda de pacote e qualidade de serviço em redes HFC e fibra óptica para clientes empresariais de grande porte, sob SLA contratual de 4 horas. Essa base trouxe algo difícil de ensinar em curso: ler o sintoma, isolar a variável, validar a hipótese. É o mesmo loop de depurar um bug em produção.
+Antes do código, diagnóstico de redes de telecom: tráfego, perda de pacote e qualidade de serviço. Essa base trouxe algo difícil de ensinar em curso: ler o sintoma, isolar a variável, validar a hipótese. É o mesmo loop de depurar um bug em produção.
 
 ---
 
