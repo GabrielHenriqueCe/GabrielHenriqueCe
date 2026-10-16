@@ -21,6 +21,18 @@ Projeto Integrador do Entra21, em equipe de cinco: sistema de gestão de obras p
 
 ---
 
+## 🧭 [TrilhaCSharp](https://github.com/GabrielHenriqueCe/TrilhaCSharp) — consolidando tudo, agora sem IA
+
+Comecei uma trilha de estudos para consolidar C# / .NET, do básico até tudo o que aprendi no Entra21. A regra é a inversa da seção de IA logo abaixo: **lá a IA implementa; aqui eu escrevo o código** e ela só orienta, até eu fazer cada coisa sozinho. Os exercícios são baseados em jogos variados, porque eu quero me divertir enquanto estudo.
+
+- Cada habilidade em ~4 repetições, mudando tema e regra a cada uma, com ajuda que cai até zero. Nenhuma repetição é apagada: dá para ver a evolução da primeira à última.
+- Console C# → SQL puro → front em HTML/CSS/JS → Web API com EF Core, JWT e testes.
+- No fim, tudo se junta num jogo de batalha por turnos, com herói, pets, loja e inventário. Depois, um desafio num tema novo, do zero e sem IA.
+
+Venha acompanhar os meus estudos. 👀
+
+---
+
 ## 🤖 Como eu trabalho com IA
 
 Desenvolvo em colaboração com IA (Claude Code) e sou explícito sobre isso — os commits co-autorados estão no histórico.
