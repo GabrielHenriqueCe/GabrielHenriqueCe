@@ -1,6 +1,6 @@
 # Olá, eu sou o Gabriel 👋
 
-Vim do telecom e estou virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e o programa **Entra21** em Blumenau/SC.
+Vim do telecom e estou virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e formado no programa **Entra21** (C# / .NET) em Blumenau/SC, em outubro de 2026.
 
 Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é fechar a feature — é entender por que a solução anterior não servia.
 
@@ -12,9 +12,9 @@ Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é
 
 Projeto Integrador do Entra21, em equipe de cinco: sistema de gestão de obras para construtoras, com cadastros, equipes, estoque por obra e treinamentos de segurança.
 
-- **Clean Architecture** em quatro camadas (Presentation, Application, Infrastructure, Domain), com regra de negócio na entidade, não no controller.
+- **Clean Architecture** em quatro camadas (Presentation, Application, Infrastructure, Domain), com regra de negócio na entidade, não no controller. Em migração: a fatia de obras, que é minha, é a referência para as outras.
 - **Autorização por permissão, não por nome de papel**, e **DTO separado por perfil**: o mestre de obras nunca recebe valor de contrato ou salário no JSON — esconder na tela não basta.
-- **CPF e CNPJ cifrados** (AES-256-GCM, com HMAC para busca).
+- **Documento de cliente e fornecedor cifrado** (AES-256-GCM, com HMAC para busca).
 - Coordeno a divisão do trabalho em fatias, uma branch e um PR por pessoa, e reviso o código da equipe com documentos de correção que cada um aplica no próprio código.
 
 `.NET 8 · ASP.NET Core Web API · EF Core · MySQL · JWT · React`
