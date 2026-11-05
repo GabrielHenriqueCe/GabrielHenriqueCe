@@ -45,7 +45,7 @@ TCC do Entra21, em equipe de cinco pessoas.
 
 ## 🤖 Como trabalho com IA
 
-Trabalho com IA (Claude Code), e foi com ela que aprendi o que sei. Sou explícito sobre isso: os commits co-autorados estão no histórico.
+Uso IA (Claude Code) todo dia para estudar e programar, e busco melhorar sempre: fiz o Entra21, curso Engenharia de Software e treino por conta própria. Sou explícito sobre isso: os commits co-autorados estão no histórico.
 
 - **[claude-padrao](https://github.com/GabrielHenriqueCe/claude-padrao):** as regras que ela segue nos meus projetos, escritas e públicas. Desenho antes do código, nada de commit sem o meu ok, nome que diz o que é.
 - **[TrilhaCSharp](https://github.com/GabrielHenriqueCe/TrilhaCSharp):** meu treino com IA. Faço exercícios até não precisar mais dela naquele assunto. Depois volto a usar, e ela deixa de ser muleta e vira ferramenta. É um ciclo.
