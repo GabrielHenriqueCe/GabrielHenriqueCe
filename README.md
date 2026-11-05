@@ -43,6 +43,31 @@ TCC do Entra21, em equipe de cinco pessoas.
 
 ---
 
+## ⚔️ Apostle's War — RPG por turnos, em desenvolvimento
+
+Meu projeto de estudo. Começou em março, no console, e hoje é jogável de ponta a ponta numa janela. O código fica privado até o jogo ficar pronto.
+
+- **O que decidi:** um projeto por camada. As regras do jogo não sabem desenhar nada: falam com a tela por uma interface.
+- **O que isso permitiu:** trocar o console pela janela sem reescrever o combate.
+- **Com IA:** a arquitetura, as regras e a revisão são minhas. A maior parte da implementação foi assistida, e o desenho que aparece no palco foi gerado por código com ela.
+- **Agora:** estou me desprendendo da IA e usando ela mais como ferramenta. Estou refazendo o visual à mão, no Figma, peça por peça, para o jogo ter a minha identidade. A primeira peça é o capacete do Operário.
+
+**1. Console**
+
+![Batalha do Apostle's War no console, em texto](media/aw-1-console.gif)
+
+**2. Telas**
+
+![Catedral, Forja, Arena e combate com cartas](media/aw-2-telas.gif)
+
+**3. Palco 2D**
+
+![Batalha com personagens animados no castelo, até a vitória](media/aw-3-palco.gif)
+
+`C# · .NET 10 · Clean Architecture · WebView2 · JavaScript · xUnit`
+
+---
+
 ## 🤖 Como trabalho com IA
 
 Uso IA (Claude Code) todo dia para estudar e programar, e busco melhorar sempre: fiz o Entra21, curso Engenharia de Software e treino por conta própria. Sou explícito sobre isso: os commits co-autorados estão no histórico.
