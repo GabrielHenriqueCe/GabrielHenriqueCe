@@ -1,73 +1,60 @@
 # Olá, eu sou o Gabriel 👋
 
-Vim do telecom e estou virando desenvolvedor **C# / .NET**. Cursando Engenharia de Software (Uniasselvi, 4º semestre) e formado no programa **Entra21** (C# / .NET) em Blumenau/SC, em outubro de 2026.
+Desenvolvedor **.NET · C#**, em Blumenau. Começo pelo problema de quem usa, decido com o que observo e coloco no ar.
 
-Meu foco é **back-end e arquitetura**. O que eu persigo em cada projeto não é fechar a feature — é entender por que a solução anterior não servia.
+Formado no **Entra21** (C# / .NET, 320 horas) e cursando Engenharia de Software (Uniasselvi, 4º semestre). Antes do código, mais de cinco anos em telecom, onde aprendi a ler o sintoma, isolar a causa e testar a hipótese antes de mexer.
 
 📍 Blumenau, SC · 🟢 Aberto a vagas júnior CLT (local/híbrido) · 🌐 [gabrielhenriquece.github.io](https://gabrielhenriquece.github.io/)
 
 ---
 
-## 🏗️ [NoPrumo](https://github.com/GabrielHenriqueCe/NoPrumo) — gestão de obras
+## 🌐 [Cé Sites](https://cesites.com.br) — meu negócio de sites para pequenas empresas
 
-Projeto Integrador do Entra21, em equipe de cinco: sistema de gestão de obras para construtoras, com cadastros, equipes, estoque por obra e treinamentos de segurança.
+- **Para quem:** dono de pequeno negócio, que quer um site sem dor de cabeça.
+- **O que decidi:** tudo pelo WhatsApp, sem formulário. A página pronta antes de pagar. O domínio no nome do cliente, não no meu.
+- **O que observei:** no teste com pessoas, no celular, todo mundo passava a animação inteira rolando e não lia nada.
+- **O que mudei:** tirei a rolagem presa e troquei por um carrossel que a pessoa passa e lê.
 
-- **Clean Architecture** em quatro camadas (Presentation, Application, Infrastructure, Domain), com regra de negócio na entidade, não no controller. Em migração: a fatia de obras, que é minha, é a referência para as outras.
-- **Autorização por permissão, não por nome de papel**, e **DTO separado por perfil**: o mestre de obras nunca recebe valor de contrato ou salário no JSON — esconder na tela não basta.
-- **Documento de cliente e fornecedor cifrado** (AES-256-GCM, com HMAC para busca).
-- Coordeno a divisão do trabalho em fatias, uma branch e um PR por pessoa, e reviso o código da equipe com documentos de correção que cada um aplica no próprio código.
-
-`.NET 8 · ASP.NET Core Web API · EF Core · MySQL · JWT · React`
+`HTML · CSS · JavaScript · three.js`
 
 ---
 
-## 🧭 [TrilhaCSharp](https://github.com/GabrielHenriqueCe/TrilhaCSharp) — consolidando tudo, agora sem IA
+## 🥉 [Fala Sério](https://falaserio-eight.vercel.app) — orientação em saúde menstrual
 
-Comecei uma trilha de estudos para consolidar C# / .NET, do básico até tudo o que aprendi no Entra21. A regra é a inversa da seção de IA logo abaixo: **lá a IA implementa; aqui eu escrevo o código** e ela só orienta, até eu fazer cada coisa sozinho. Os exercícios são baseados em jogos variados, porque eu quero me divertir enquanto estudo.
+3º lugar no Startup Weekend Blumenau: 54 horas, com um time formado no evento.
 
-- Cada habilidade em ~4 repetições, mudando tema e regra a cada uma, com ajuda que cai até zero. Nenhuma repetição é apagada: dá para ver a evolução da primeira à última.
-- Console C# → SQL puro → front em HTML/CSS/JS → Web API com EF Core, JWT e testes.
-- No fim, tudo se junta num jogo de batalha por turnos, com herói, pets, loja e inventário. Depois, um desafio num tema novo, do zero e sem IA.
-
-Venha acompanhar os meus estudos. 👀
+- **O que ouvimos:** nove entrevistas apontaram o mesmo bloqueio: a dor existe, mas a informação não chega.
+- **O que decidimos:** uma enfermeira para dizer se o que ela sente é esperado ou se é hora de procurar um ginecologista, na conversa onde ela já está e sem aplicativo.
+- **O que a regra mudou:** pela ANS, a assinatura não pode garantir consulta, então o plano inclui prioridade de agendamento. Pelo COFEN, a telenfermagem exige registro auditável, e WhatsApp puro não cumpre.
+- **Minha parte:** o site do projeto.
 
 ---
 
-## 🤖 Como eu trabalho com IA
+## 🏗️ [NoPrumo](https://github.com/GabrielHenriqueCe/NoPrumo) — gestão de obras para construtoras
 
-Desenvolvo em colaboração com IA (Claude Code) e sou explícito sobre isso — os commits co-autorados estão no histórico.
+TCC do Entra21, em equipe de cinco pessoas.
 
-**[claude-padrao](https://github.com/GabrielHenriqueCe/claude-padrao)** é como eu trabalho com IA, escrito: as regras e o plugin que o Claude segue em todo projeto meu.
+- **O que decidimos:** a obra é o centro do sistema. O mestre enxerga quantidade e a administração enxerga dinheiro.
+- **Por quê:** esconder na tela não basta: se o valor vier no JSON, o DevTools mostra. Por isso a API devolve um DTO por perfil.
+- **Liderança:** liderei a equipe: dividi o trabalho em fatias e coordenei a entrega e a revisão de cada uma.
+- **O que fiz:** o login com JWT, a tela de login e o cadastro de usuários, as obras e etapas, o financeiro da obra e o painel.
 
-- **Regras:** desenho antes de código, nada de commit sem o meu ok, nome que diz o que é, comentário só onde o código não fala sozinho.
-- **Skills:** um método de depuração (sintoma → hipótese → teste, sem chute), checklist de C# e Clean Architecture, revisão de interface (acessibilidade, foco, animação).
-- **Hook de contexto:** mede quanto da memória da sessão já foi usado e, antes de encher, faz o Claude fechar o trabalho e entregar o que foi feito e o que falta.
+`.NET 8 · ASP.NET Core Web API · EF Core · MySQL · JWT · React · xUnit`
 
-As regras nascem nos projetos e sobem para lá — e são revisadas pelos próprios projetos antes de entrar. É público, para outras pessoas usarem.
+---
 
-**Meu:** arquitetura, desenho de camadas, especificação de comportamento, revisão crítica de cada iteração e a decisão de descartar o que não funcionou — inclusive coisas que eu mesmo já tinha aprovado.
+## 🤖 Como trabalho com IA
 
-**Assistido por IA:** a maior parte da implementação, a partir dessas especificações.
+Trabalho com IA (Claude Code), e foi com ela que aprendi o que sei. Sou explícito sobre isso: os commits co-autorados estão no histórico.
 
-Não delego duas coisas: definição do problema e decisão de arquitetura.
+- **[claude-padrao](https://github.com/GabrielHenriqueCe/claude-padrao):** as regras que ela segue nos meus projetos, escritas e públicas. Desenho antes do código, nada de commit sem o meu ok, nome que diz o que é.
+- **[TrilhaCSharp](https://github.com/GabrielHenriqueCe/TrilhaCSharp):** meu treino com IA. Faço exercícios até não precisar mais dela naquele assunto. Depois volto a usar, e ela deixa de ser muleta e vira ferramenta. É um ciclo.
 
 ---
 
 ## 🛠️ Stack
 
-**Sólido** — C# · POO (encapsulamento, herança, polimorfismo, classes abstratas, interfaces, generics, collections) · exceções e I/O · Git/GitHub
-
-**Em uso** — .NET 8 e .NET 10 · ASP.NET Core MVC · Entity Framework Core (Code First) · SQL / MySQL · LINQ · async/await · injeção de dependência · SOLID · padrões (State, Repository)
-
-**Estudando agora** — REST APIs com ASP.NET Core (JWT, Swagger) · testes unitários · deploy
-
-**Base** — HTML · CSS · JavaScript · Tailwind
-
----
-
-## 📈 Trajetória
-
-Antes do código, diagnóstico de redes de telecom: tráfego, perda de pacote e qualidade de serviço. Essa base trouxe algo difícil de ensinar em curso: ler o sintoma, isolar a variável, validar a hipótese. É o mesmo loop de depurar um bug em produção.
+C# · POO · .NET 8 · ASP.NET Core MVC e Web API · JWT · Entity Framework Core · SQL e MySQL · LINQ · async/await · injeção de dependência · Clean Architecture · xUnit · HTML · CSS · JavaScript · Tailwind · React · Git e GitHub
 
 ---
 
