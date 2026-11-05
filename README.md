@@ -45,12 +45,12 @@ TCC do Entra21, em equipe de cinco pessoas.
 
 ## ⚔️ Apostle's War — RPG por turnos, em desenvolvimento
 
-Meu projeto de estudo. Começou em março, no console, e hoje é jogável de ponta a ponta numa janela. O código fica privado até o jogo ficar pronto.
+Meu projeto de estudo, inspirado em Raid: Shadow Legends. Começou em março, no console, e hoje é jogável de ponta a ponta numa janela. O repositório é privado, e posso mostrá-lo em entrevistas.
 
-- **O que decidi:** um projeto por camada. As regras do jogo não sabem desenhar nada: falam com a tela por uma interface.
-- **O que isso permitiu:** trocar o console pela janela sem reescrever o combate.
-- **Com IA:** a arquitetura, as regras e a revisão são minhas. A maior parte da implementação foi assistida, e o desenho que aparece no palco foi gerado por código com ela.
-- **Agora:** estou me desprendendo da IA e usando ela mais como ferramenta. Estou refazendo o visual à mão, no Figma, peça por peça, para o jogo ter a minha identidade. A primeira peça é o capacete do Operário.
+- **O que aprendi no Entra21:** a montar uma arquitetura e regras decentes, com código mais limpo em C#. As regras do jogo não sabem desenhar nada: falam com a tela por uma interface, e foi isso que permitiu trocar o console pela janela sem reescrever o combate.
+- **A mudança de rumo:** o jogo vinha sendo desenhado como um gacha, até eu perceber que esse não era o destino que eu queria para ele. Fiz uma pausa e agora vou fazer um MVP offline, com as mesmas mecânicas de batalha e a mesma vontade de voltar e ficar mais forte.
+- **Com IA:** desenvolvi com o Claude Code, e os commits co-autorados estão no histórico. A direção é minha: decidi a arquitetura e as regras, opinei muito em cada parte e ajustei muita coisa na mão. No caminho aprendi sobre harness, skills e a economizar token.
+- **Agora:** estou me desprendendo da IA e usando ela mais como ferramenta. Estou refazendo o visual à mão, no Figma, peça por peça, para o jogo ter a minha identidade.
 
 **1. Console**
 
